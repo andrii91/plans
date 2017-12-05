@@ -1,0 +1,47 @@
+& {
+  .plans-title {
+    font-size: 30px;
+    margin-bottom: 29px;
+  }
+  .plans-sub_title {
+    font-size: 18px;
+  }
+  .plans-list li .right {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .logo-block {
+    display: block;
+    margin-top: 0;
+    text-align: center;
+  }
+  .footer-list li {
+    line-height: 24px;
+  }
+  .submit-btn {
+    padding: 21px 0;
+    width: 100%;
+    margin-bottom: 254px;
+  }
+  .modal {
+    padding: 20px;
+  }
+  .container-carousel>.owl-nav .owl-prev {
+    left: 5px;
+  }
+  .container-carousel>.owl-nav .owl-next {
+    right: 5px;
+  }
+  .footer-soc {
+    text-align: right;
+  }
+  .modal-content h4 {
+    font-size: 18px;
+    line-height: 1;
+  }
+  .popup__close {
+    top: 10px;
+    right: 10px;
+  }
+}
