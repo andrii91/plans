@@ -185,7 +185,11 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transform: translateX(-50%) translateY(-50%);
-
+ &.large {
+  max-width: 768px;
+  overflow-y: scroll;
+  max-height: 480px;
+ }
 }
 
 .modal-content {

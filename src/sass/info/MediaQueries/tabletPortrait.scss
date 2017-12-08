@@ -1,8 +1,23 @@
 @import '../../mq';
 
 @media #{$tabletPortrait} {
-    @import '../mobile';
+    // @import '../mobile';
   	& {
-     
+     .site-carousel {
+     	max-width: 100%;
+     }
+     .workers {
+		    margin: 10px 25px;
+		    width: 100%;
+		}
+		.footer-soc {
+			text-align: right;
+		}
+		.container-carousel>.owl-nav .owl-prev {
+			left: 10px;
+		}
+		.container-carousel>.owl-nav .owl-next {
+			right: 10px;
+		}
 	}
 }
