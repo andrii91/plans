@@ -1,26 +1,142 @@
 @import '../../mq';
 
 @media #{$tabletPortrait} {
-    // @import '../mobile';
-  	& {
-     .site-carousel {
-     	max-width: 100%;
-     }
-     .workers {
-		    margin: 10px 25px;
-		    width: 100%;
-		}
-		.footer-soc {
-			text-align: right;
-		}
-		.container-carousel>.owl-nav .owl-prev {
-			left: 10px;
-		}
-		.container-carousel>.owl-nav .owl-next {
-			right: 10px;
-		}
-	}
+  // @import '../mobile';
+  & {
+    .site-carousel {
+      max-width: 608px;
+      margin: 37px auto 0;
+    }
+
+    .footer-soc {
+      text-align: right;
+    }
+    .container-carousel > .owl-nav .owl-prev {
+      left: 10px;
+    }
+    .container-carousel > .owl-nav .owl-next {
+      right: 10px;
+    }
+  }
   .pl58 {
     padding-left: 15px;
+  }
+
+  .container-carousel > .owl-dots .owl-dot span {
+    color: #ffffff;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1.12px;
+  }
+  .lh1 .plans-list {
+    max-width: 597px;
+    margin: 0 auto;
+    li {
+      &:nth-child(6) {
+        margin-top: 31px;
+        margin-bottom: 31px;
+        .right {
+          line-height: 19px;
+          margin-top: -42px;
+        }
+      }
+      &:nth-child(7) {
+        .right {
+          line-height: 19px;
+          margin-top: -23px;
+
+        }
+      }
+      &:nth-child(10) {
+        .right {
+         line-height: 16px;
+        }
+      }
+      &:nth-child(14) {
+        .right {
+         line-height: 13px;
+        }
+      }
+      
+
+    }
+  }
+  .lh1 .plans-list li .right {
+    line-height: 10px;
+  }
+  .workers-block {
+    .workers {
+      vertical-align: top;
+      &:nth-child(1) {
+        margin-left: 6px;
+        margin-right: 64px;
+      }
+      &:nth-child(3) {
+        margin-left: 43px;
+        margin-right: 62px;
+      }
+      &:nth-child(5) {
+        margin-left: 29px;
+      }
+      &:nth-child(6) {
+        margin-left: 6px;
+        margin-right: 58px;
+      }
+      &:nth-child(8) {
+        margin-left: 47px;
+        margin-right: 68px;
+      }
+      &:nth-child(9) {
+        margin-right: 60px;
+      }
+    }
+  }
+  .logo-block img {
+    margin: 0 6px;
+  }
+  .plans-title,
+  .plans-sub_title,
+  .plans-info {
+    max-width: 597px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .plans-title {
+    margin-bottom: -8px;
+  }
+  .plans-info {
+    margin-bottom: 30px;
+  }
+  nav, footer {
+    .container {
+      padding: 0;
+    }
+  }
+  .nav-logo {
+    margin-top: -4px;
+    margin-left: -11px;
+  }
+  .nav-title {
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 9px 0 8px 2px;
+    letter-spacing: 0.84px;
+  }
+  .call-btn {
+    padding: 7px 20px;
+  }
+  main {
+    padding-top: 49px;
+  }
+  .calculate-btn {
+    position: absolute;
+    top: -49px;
+    right: 62px;
+  }
+  .plans-list li .right {
+    margin-right: 0;
   }
 }

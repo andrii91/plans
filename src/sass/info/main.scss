@@ -164,7 +164,7 @@ font-weight: 300;
     margin-right: 6px;
   }
   &:nth-child(9) {
-    margin-right: 22px;
+    margin-right: 30px;
   }
   &:nth-child(6), &:nth-child(7),&:nth-child(8),&:nth-child(9),&:nth-child(10) {
     margin-bottom: 0;
@@ -186,6 +186,7 @@ font-weight: 300;
     min-height: 27px;
     line-height: 16px;
     margin: 7px 0 0;
+    text-transform: initial;
       span {
         color: #222222;
         font-family: "Gilroy - Extra Bold";
